@@ -1,0 +1,20 @@
+1- Elaborer la structure graphique de l’arbre XML
+
+releve
+│
+├── @RIB
+│
+├── dateReleve
+│
+├── solde
+│
+└── operations
+    │
+    ├── @dateDebut
+    ├── @dateFin
+    │
+    ├── operation
+        ├── @date
+        ├── @montant
+        ├── @description
+        ├── @type(Debit|Credit)
